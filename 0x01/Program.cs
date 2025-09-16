@@ -1,4 +1,5 @@
-﻿// Single-line comments
+﻿Console.WriteLine("Start...");
+// Single-line comments
 /* Multi-line
 comments
 */
@@ -188,3 +189,99 @@ result = num1 < 1 || num2 < 50;
 Console.WriteLine(result);
 result = !result;
 Console.WriteLine(result); */
+
+// Conditionals
+// if Statement
+/* if (true)
+{
+  Console.WriteLine("Condition is True");
+} */
+
+// else Statement
+/* if (false)
+{
+  Console.WriteLine("Condition is True");
+}
+else
+{
+  Console.WriteLine("Condition isn't True");
+} */
+
+// else if Statement
+/* if (false)
+{
+  Console.WriteLine("Condition is True");
+}
+else
+{
+  if (true)
+  {
+    Console.WriteLine("New condition is True");
+  }
+} */
+
+// Short hand if...else (Ternary Operator)
+/* string result;
+bool bool1 = true;
+result = bool1 ? "Expression is true" : result = "Expression is false";
+Console.WriteLine(result);
+bool bool2 = false;
+result = bool2 ? "Expression is true" : result = "Expression is false";
+Console.WriteLine(result); */
+
+// switch Statement
+/* string str1 = "-";
+switch (str1)
+{
+  case "+":
+  Console.WriteLine("+ case");
+    break;
+  default:
+    Console.WriteLine("Default case");
+    break;
+} */
+
+// Loops
+// for
+/* for (int i = 0; i < 4; i++)
+{
+  Console.WriteLine(i);
+} */
+
+// while
+/* int i = 0;
+while (i < 4)
+{
+  Console.WriteLine(i);
+  i++;
+} */
+
+// do...while
+/* int i = 5;
+do
+{
+  Console.WriteLine(i);
+  i++;
+} while (i < 4); */
+
+// foreach
+/* int[] dataSet = [0, 1, 2, 3];
+foreach (var element in dataSet)
+{
+  Console.WriteLine(element);
+} */
+
+// Break and Continue
+/* for (int i = 0; i < 10; i++)
+{
+  if (i == 3)
+  {
+    continue;
+  }
+  if (i == 6)
+  {
+    break;
+  }
+  Console.WriteLine(i);
+} */
+Console.WriteLine("...End.");
